@@ -7,4 +7,3 @@ class mqProducer(mqProducerInterface):
         self.routing_key = routing_key
         self.exchange_name = exchange_name
         self.setupRMQConnection()
-        self.publishOrder("hiii")
