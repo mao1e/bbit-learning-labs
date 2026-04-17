@@ -12,7 +12,7 @@ Below are bullet points of the criteria:
 - Your class should [inherit](../../resources/Python-Basics.md#creating-an-interface) from our mqConsumerInterface.
 - Constructor:[Save the three variables](../../resources/Python-Basics.md#saving-a-instance-variable-and-calling-the-variable) needed to instantiate the class.
 - Constructor: Call the setupRMQConnection function.
-- setupRMQConnection Function: Establish connection to the RabbitMQ service, declare a queue and exchange, bind the binding key to the queue on the exchange and finally set up a callback function for receiving messages
+- setup RMQConnection Function: Establish connection to the RabbitMQ service, declare a queue and exchange, bind the binding key to the queue on the exchange and finally set up a callback function for receiving messages
 - onMessageCallback: Print the UTF-8 string message and then close the connection.
 - startConsuming:  Consumer should start listening for messages from the queue.
 - Del: Close Connection and Channel.
